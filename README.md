@@ -1,12 +1,14 @@
 # Node-RED docker image 
 
+FIWARE と連携させると便利なパッケージを追加済みの [Node-RED](https://nodered.org/)のDockerイメージです。
+
 | Build | Status Badge |
 | --- | --- |
 | Deploy | [![Deploy Docker image on tagging](https://github.com/makeOurCity/docker-node-red/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/makeOurCity/docker-node-red/actions/workflows/deploy.yml) | 
 | main branch build test | [![Build Test](https://github.com/makeOurCity/docker-node-red/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/makeOurCity/docker-node-red/actions/workflows/build.yml) |
 | develop branch build test | [![Build Test](https://github.com/makeOurCity/docker-node-red/actions/workflows/build.yml/badge.svg?branch=develop)](https://github.com/makeOurCity/docker-node-red/actions/workflows/build.yml) |
 
-# Docker image　の利用方法
+# Docker imageの利用方法
 
 ```console
 $ docker pull ghcr.io/makeourcity/node-red:latest
