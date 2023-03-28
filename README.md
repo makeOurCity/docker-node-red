@@ -1,5 +1,7 @@
 # Node-RED docker image 
 
+[![Build Test](https://github.com/makeOurCity/docker-node-red/actions/workflows/build.yml/badge.svg)](https://github.com/makeOurCity/docker-node-red/actions/workflows/build.yml)
+
 # 起動方法
 
 ```console
