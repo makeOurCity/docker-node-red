@@ -1,4 +1,4 @@
-name: Deploy Docker image on tagging.
+name: Push Docker image
 
 on:
   push:
