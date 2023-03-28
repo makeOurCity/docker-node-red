@@ -2,8 +2,10 @@ name: Build Test
 
 on:
   pull_request:
-    - main
-    - develop
+    types: [opened, reopened]
+    branches:
+      - main
+      - develop
 
 jobs:
   build:
