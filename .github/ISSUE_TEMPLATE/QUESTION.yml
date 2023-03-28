@@ -1,0 +1,11 @@
+name: Question
+description: 質問
+title: "[Question]: "
+labels: ["question"]
+assignees:
+  - ushios
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!

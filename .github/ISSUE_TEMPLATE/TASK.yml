@@ -1,0 +1,11 @@
+name: Task
+description: 実行タスク
+title: "[Task]: "
+labels: ["feature"]
+# assignees:
+#   - xxxx
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
