@@ -1,6 +1,6 @@
 ---
 name: ❓ Question
-about: 質問
+about: このリポジトリに関連する質問
 title: '❓ <title>'
 labels: question
 assignees: 'ushios'
