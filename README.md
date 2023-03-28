@@ -1,6 +1,6 @@
 # Node-RED docker image 
 
-[![Build Test](https://github.com/makeOurCity/docker-node-red/actions/workflows/build.yml/badge.svg)](https://github.com/makeOurCity/docker-node-red/actions/workflows/build.yml)
+[![Deploy Docker image on tagging.](https://github.com/makeOurCity/docker-node-red/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/makeOurCity/docker-node-red/actions/workflows/deploy.yml) [![Build Test (main)](https://github.com/makeOurCity/docker-node-red/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/makeOurCity/docker-node-red/actions/workflows/build.yml) [![Build Test (develop)](https://github.com/makeOurCity/docker-node-red/actions/workflows/build.yml/badge.svg?branch=develop)](https://github.com/makeOurCity/docker-node-red/actions/workflows/build.yml)
 
 # 起動方法
 
