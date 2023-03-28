@@ -2,13 +2,20 @@ name: Build Test
 
 on:
   pull_request:
-    - main
+    branches:
+      - main
+      - develop
+  push:
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: satackey/action-docker-layer-caching@v0.0.11
+        continue-on-error: true
       - name: Build a docker image
         run: |
           docker build .
