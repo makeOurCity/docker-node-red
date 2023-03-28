@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  node-red:
+    build: .
+    environment:
+      - TZ=Asia/Japan
+    ports:
+      - "1880:1880"
+    volumes:
+      - ./node-red-data:/data
