@@ -14,7 +14,7 @@ $ docker pull ghcr.io/makeourcity/node-red:latest
 
 ## docker compose での利用
 
-```compose.json
+```compose.yml
 version: "3.7"
 services:
   node-red:
